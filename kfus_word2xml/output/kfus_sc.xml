@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE kfus PUBLIC "-//IBFD//ELEMENTS KEYFEATURE//EN" "http://dtd.ibfd.org/dtd/kf.dtd">
+
+<kfus id="kfus_sc">
+    <country cc="us">United States</country>
+    <countrydiv cdc="sc" type="state">
+        <countrydivname>South Carolina</countrydivname>
+    </countrydiv>
+    <reviewed>
+        <name>Last reviewed:</name>
+        <date sortdate="2020-11-27">27 November 2020</date>
+    </reviewed>
+    <kfus_companies id="kfus_companies_sc">
+        <taxtopics>
+            <taxtopic tc="1_1_22_2" score="3">Local / Municipal / Cantonal</taxtopic>
+            <taxtopic tc="1_1_21_2" score="3">Local / Municipal / Cantonal</taxtopic>
+        </taxtopics>
+        <title>A. Companies</title>
+        <kfus_corp_tax_rates id="kfus_corp_tax_rates_sc">
+            <name>
+                <extxref target="nathsuba_us_sc_s_1.5.1.">1.  Corporate income tax rates</extxref>
+            </name>
+            <values>
+                <value>Maximum rate 5%</value>
+            </values>
+        </kfus_corp_tax_rates>
+        <kfus_tax_base_companies id="kfus_tax_base_companies_sc">
+            <name>
+                <extxref target="nathsuba_us_sc_s_1.3.1.">2.  Tax base</extxref>
+            </name>
+            <values>
+                <value>Federal taxable income, with South Carolina additions and subtractions, allocated and apportioned to South Carolina </value>
+            </values>
+        </kfus_tax_base_companies>
+        <kfus_bus_income_app_form id="kfus_bus_income_app_form_sc">
+            <name>
+                <extxref target="nathsuba_us_sc_s_1.4.">3.  Business income apportionment formula</extxref>
+            </name>
+            <values>
+                <value>Three-factor formula ( property, payroll, sales) with double-weighted sales factor  or one-factor formula (sales) or one-factor formula (gross receipts) depending on taxpayer’s principal business; one-factor formula (gross receipts) replacing three-factor formula between 2007 and 2010</value>
+            </values>
+        </kfus_bus_income_app_form>
+        <kfus_capital_gains id="kfus_capital_gains_sc">
+            <name>
+                <extxref target="nathsuba_us_sc_s_3.2.">4.  Capital gains</extxref>
+            </name>
+            <values>
+                <value>Same rate as ordinary income </value>
+            </values>
+        </kfus_capital_gains>
+        <kfus_amt id="kfus_amt_sc">
+            <name>
+                <extxref target="nathsuba_us_sc_s_1.5.2.">5.  Alternative minimum tax</extxref>
+            </name>
+            <values>
+                <value>No</value>
+            </values>
+        </kfus_amt>
+        <kfus_group id="kfus_group_sc">
+            <name>
+                <extxref target="nathsuba_us_sc_s_2.">6.  Group taxation allowed or required</extxref>
+            </name>
+            <values>
+                <value>Yes</value>
+            </values>
+        </kfus_group>
+        <kfus_foreign_tax id="kfus_foreign_tax_sc">
+            <name>
+                <extxref target="nathsuba_us_sc_s_5.4.">7.  Foreign tax deduction</extxref>
+            </name>
+            <values>
+                <value>No </value>
+            </values>
+        </kfus_foreign_tax>
+        <kfus_tax_return_due_date id="kfus_tax_return_due_date_sc">
+            <name>
+                <extxref target="nathsuba_us_sc_s_1.6.2.">8.  Tax return due date</extxref>
+            </name>
+            <values>
+                <value>15 March for calendar year taxpayers</value>
+            </values>
+        </kfus_tax_return_due_date>
+    </kfus_companies>
+    <kfus_individuals id="kfus_individuals_sc">
+        <taxtopics>
+            <taxtopic tc="1_2_21_2" score="3">Local / Municipal / Cantonal</taxtopic>
+            <taxtopic tc="1_2_22_2" score="3">Local / Municipal / Cantonal</taxtopic>
+        </taxtopics>
+        <title>B. Individuals</title>
+        <kfus_ind_income_tax_rates id="kfus_ind_income_tax_rates_sc">
+            <name>
+                <extxref target="nathsubb_us_sc_s_1.4.">1.  Personal income tax rates</extxref>
+            </name>
+            <values>
+                <value>Maximum rate 7%</value>
+            </values>
+        </kfus_ind_income_tax_rates>
+        <kfus_tax_base_ind id="kfus_tax_base_ind_sc">
+            <name>
+                <extxref target="nathsubb_us_sc_s_1.2.1.">2.  Tax base</extxref>
+            </name>
+            <values>
+                <value>Federal taxable income with South Carolina additions and subtractions</value>
+            </values>
+        </kfus_tax_base_ind>
+        <kfus_income_subject_ind id="kfus_income_subject_ind_sc">
+            <title>3.  Income subject to tax</title>
+            <kfus_income_subject_ind_res id="kfus_income_subject_ind_res_sc">
+                <name>
+                    <extxref target="nathsubb_us_sc_s_4.1.">Residents</extxref>
+                </name>
+                <values>
+                    <value>Worldwide income</value>
+                </values>
+            </kfus_income_subject_ind_res>
+            <kfus_income_subject_ind_nonres id="kfus_income_subject_ind_nonres_sc">
+                <name>
+                    <extxref target="nathsubb_us_sc_s_4.2.">Non-residents</extxref>
+                </name>
+                <values>
+                    <value>Income, gains, losses, and deductions attributable to real and tangible personal property located in South Carolina, business, trade, profession, or occupation carried on in South Carolina, personal services performed in South Carolina, and intangible personal property employed in business, trade, profession, or occupation carried on in South Carolina </value>
+                </values>
+            </kfus_income_subject_ind_nonres>
+        </kfus_income_subject_ind>
+        <kfus_capital_gains_ind id="kfus_capital_gains_ind_sc">
+            <name>
+                <extxref target="nathsubb_us_sc_s_1.4.2.">4.  Capital gains</extxref>
+            </name>
+            <values>
+                <value>Deduction of 44% of net capital gain from assets held more than one year </value>
+            </values>
+        </kfus_capital_gains_ind>
+        <kfus_amt_ind id="kfus_amt_ind_sc">
+            <name>
+                <extxref target="nathsubb_us_sc_s_1.4.3.">5.  Alternative minimum tax</extxref>
+            </name>
+            <values>
+                <value>No</value>
+            </values>
+        </kfus_amt_ind>
+        <kfus_tax_return_due_date_ind id="kfus_tax_return_due_date_ind_sc">
+            <name>
+                <extxref target="nathsubb_us_sc_s_1.5.2.">6.  Tax return due date</extxref>
+            </name>
+            <values>
+                <value>15 April for calendar year taxpayers</value>
+            </values>
+        </kfus_tax_return_due_date_ind>
+    </kfus_individuals>
+    <kfus_other_taxes id="kfus_other_taxes_sc">
+        <taxtopics>
+            <taxtopic tc="1_5" score="3">Other Taxes</taxtopic>
+        </taxtopics>
+        <title>C. Other direct taxes</title>
+        <kfus_net_wealth_tax id="kfus_net_wealth_tax_sc">
+            <name>
+                <extxref target="nathsubb_us_sc_s_3.">1.  Net wealth tax</extxref>
+            </name>
+            <values>
+                <value>No</value>
+            </values>
+        </kfus_net_wealth_tax>
+        <estate_tax id="estate_tax_sc">
+            <name>
+                <extxref target="nathsubb_us_sc_s_2.1.">2.  Estate tax</extxref>
+            </name>
+            <values>
+                <value>Yes</value>
+            </values>
+        </estate_tax>
+        <inheritance_tax id="inheritance_tax_sc">
+            <name>3.  Inheritance tax</name>
+            <values>
+                <value>No</value>
+            </values>
+        </inheritance_tax>
+        <gen_skip_tax id="gen_skip_tax_sc">
+            <name>4.  Generation skipping tax</name>
+            <values>
+                <value>Yes</value>
+            </values>
+        </gen_skip_tax>
+        <gift_tax id="gift_tax_sc">
+            <name>
+                <extxref target="nathsubb_us_sc_s_2.2.">5.  Gift tax</extxref>
+            </name>
+            <values>
+                <value>No</value>
+            </values>
+        </gift_tax>
+    </kfus_other_taxes>
+    <kfus_turnover_taxes id="kfus_turnover_taxes_sc">
+        <taxtopics>
+            <taxtopic tc="1_4" score="3">VAT</taxtopic>
+        </taxtopics>
+        <title>D Turnover taxes</title>
+        <kfus_sales id="kfus_sales_sc">
+            <name>
+                <extxref target="nathsuba_us_sc_s_6.">1.  Sales and use taxes</extxref>
+            </name>
+            <values>
+                <value>State tax rate 6%</value>
+                <value>Local taxes additional 0% to 2% </value>
+            </values>
+        </kfus_sales>
+    </kfus_turnover_taxes>
+</kfus>

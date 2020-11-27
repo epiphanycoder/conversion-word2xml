@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8d4856e7-09f9-4bc9-883f-beea149902fd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/kfusw2x.jar" beforeDir="false" afterPath="$PROJECT_DIR$/kfusw2x.jar" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ks0XIJixfpZHecYLtPfPkWjMdz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d4856e7-09f9-4bc9-883f-beea149902fd" name="Default Changelist" comment="" />
+      <created>1606474029989</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606474029989</updated>
+      <workItem from="1606474031111" duration="2995000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="578" y="296" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1606477212168">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="578" y="296" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1606477212168" />
+    <state x="698" y="354" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606478965978">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="698" y="354" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1606478965978" />
+    <state width="1878" height="337" key="GridCell.Tab.0.bottom" timestamp="1606479971097">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="337" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1606479971097" />
+    <state width="1878" height="337" key="GridCell.Tab.0.center" timestamp="1606479971096">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="337" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1606479971096" />
+    <state width="1878" height="337" key="GridCell.Tab.0.left" timestamp="1606479971095">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="337" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1606479971095" />
+    <state width="1878" height="337" key="GridCell.Tab.0.right" timestamp="1606479971096">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="337" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1606479971096" />
+    <state x="661" y="355" width="598" height="490" key="find.popup" timestamp="1606479731970">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="661" y="355" width="598" height="490" key="find.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1606479731970" />
+    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup" timestamp="1606479480547">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1606479480547" />
+    <state x="690" y="519" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1606479875184">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="690" y="519" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1606479875184" />
+  </component>
+</project>

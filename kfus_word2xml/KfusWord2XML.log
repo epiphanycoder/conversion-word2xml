@@ -1,0 +1,8 @@
+
+Log generated at /Users/opu/Projects/Java/kfus_word2xml/KfusWord2XML.log
+with 2 error(s) , 0 warning(s) .
+
+Error: Error while processing file: /Users/opu/Projects/Java/kfus_word2xml/input/kfus_word2xml.docx Error: com.aspose.words.FileCorruptedException: The document appears to be corrupted and cannot be loaded.
+Error: Error while processing file: /Users/opu/Projects/Java/kfus_word2xml/input/kfus_word2xml.docx Error: java.lang.NullPointerException
+
+

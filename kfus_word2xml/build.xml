@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<project name="kfus_word2xml" default="all" basedir=".">
+
+	<property name="src.dir" value="src" />
+	<property name="lib" value="lib" />
+	<property name="build.dir" value="antbin" />
+
+	<path id="compile.classpath">
+		<fileset dir="${lib}">
+			<include name="*.jar" />
+		</fileset>
+	</path>
+
+	<target name="prepare">
+		<mkdir dir="${build.dir}" />
+	</target>
+
+	<target name="clean" description="Removes all generated files.">
+		<delete dir="${build.dir}" />
+	</target>
+
+	<target name="clean-all" depends="clean" description="Removes all generated files.">
+		<delete file="${basedir}/kfusw2x.jar" />
+		<delete file="${basedir}/kfcaw2x.jar" />
+	</target>
+
+	<target name="compile" depends="prepare" description="Compiles all source code.">
+		<mkdir dir="${build.dir}" />
+		<javac source="1.5" srcdir="${src.dir}" destdir="${build.dir}" target="1.5" debug="true">
+			<classpath refid="compile.classpath" />
+		</javac>
+
+		<copy todir="${build.dir}">
+			<fileset dir="${src.dir}">
+				<exclude name="**/*.java" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="kfusw2x-jar" depends="compile">
+		<pathconvert property="jar.classpath" pathsep=" ">
+			<path>
+				<fileset dir="lib">
+					<include name="**/*.jar" />
+				</fileset>
+			</path>
+			<chainedmapper>
+				<flattenmapper />
+				<globmapper from="*" to="lib/*" />
+			</chainedmapper>
+		</pathconvert>
+
+		<delete file="${basedir}/kfusw2x.jar">
+		</delete>
+
+		<jar jarfile="${basedir}/kfusw2x.jar" basedir="${build.dir}">
+			<manifest>
+				<attribute name="Class-Path" value="${jar.classpath}" />
+				<attribute name="Main-Class" value="org.ibfd.word2xml.kfus.KFUSMain" />
+			</manifest>
+		</jar>
+	</target>
+
+	<target name="all" depends="clean,kfusw2x-jar" description="Cleans, compiles, then builds the JAR file." />
+</project>
